@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Custom;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+body{
+    display: grid;
+    background-color: #d6e2f0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Custom;
+}
+
+.card{
+    background-color: white;
+    width: 230px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.picture{
+    margin-top: 15px;
+    
+}
+
+.picture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.heading{
+    color: #1f3251;
+    font-weight: 700;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.content{
+    font-size: 70%;
+    color: #68778d;
+    margin: 15px;
+}
